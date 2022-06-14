@@ -8,7 +8,18 @@ Meaning this tool is idea for a local physcical attack on a specific target
 I will be utilizng the Wifi Pinnaple and Bash Bunny from hak5 as my main/ first use of this tool
 
     Stage one: Recon
-        1) import Wifi pinnaple results
+        1) import Wifi pinnaple results as a json file
+        2) use aircrack to gather physcial location of item (echolocation)
+        3) Take pictures of target and use facial OSINT tool
+        4) add more OSINT
 
     Stage two: Payload settup and Config
+        1) Select Attack vector 
+            a. (first idea) Use metasploit API to actually make a payload [hotplug]
+            b. add more later
+
     Stage three: Deplyment and post-attack
+        1) Provide instructions for next steps
+        2) Further devlopment 
+
+This is a one stop shop for scipt kiddies and actual pentesters alike.
