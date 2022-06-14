@@ -1,0 +1,14 @@
+This is my current ideas for the project:
+
+A full 3 stage attack system for specific targets in a local area.
+Meaning this tool is idea for a local physcical attack on a specific target
+    You would likely use this in a coffe shop
+    This is mostly a full on tool to facilitate getting access instead a simple hotplug attack
+
+I will be utilizng the Wifi Pinnaple and Bash Bunny from hak5 as my main/ first use of this tool
+
+    Stage one: Recon
+        1) import Wifi pinnaple results
+
+    Stage two: Payload settup and Config
+    Stage three: Deplyment and post-attack

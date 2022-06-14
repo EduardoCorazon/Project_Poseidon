@@ -4,12 +4,3 @@
 #
 
 #!/usr/bin/python
-
-# imports
-import os
-import threading
-import requests
-
-
-class Apicall():
-    th
