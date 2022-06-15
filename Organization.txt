@@ -8,10 +8,18 @@ Meaning this tool is idea for a local physcical attack on a specific target
 I will be utilizng the Wifi Pinnaple and Bash Bunny from hak5 as my main/ first use of this tool
 
     Stage one: Recon
+    Option 1 Automation:
         1) Use wifi pineapple as fake hotspot to get target
-        2) idk
-        3) Take pictures of target and use facial OSINT tool
-        4) add more OSINT
+        2) harvest information & export it
+        3) do an nmap scan
+
+    Option 2 Manual:
+        1) do an arp scan
+        2) select ip to do nmap scan
+
+    Target OSINT
+        1) Take pictures of target and use facial OSINT tool
+        2) add more OSINT
 
     Stage two: Payload settup and Config
         1) Select Attack vector 

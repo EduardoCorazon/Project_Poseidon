@@ -8,6 +8,7 @@
 # imports
 import scapy.all as scapy
 import re
+import json
 
 ############################### Stage 1 #################
 
@@ -22,12 +23,11 @@ while True:
         print(f"{ipRange} is a valid ip address range")
         break
 
-arp_result = []
-arp_result.append(scapy.arping(ipRange))  # print out arp scan
+arp_result = []  # create a dictorinay for arp results
+arp_result.append(scapy.arping(ipRange))
 
 for i in arp_result:
-    print("testworked")
-
+    print("test worked apprent num")
 
 # Select the IP
 
