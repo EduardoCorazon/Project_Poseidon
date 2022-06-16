@@ -6,11 +6,15 @@
 #!/usr/bin/python
 
 # imports
-import scapy.all as scapy
-scapy.arping("10.0.0.1")
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
 
+driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver')
 
-############################### Stage 2 #################
+url = 'https://www.google.com/'
 
+driver.get(url)
 
-############################### Stage 3 #################
+driver.find_element_by_xpath(
+    '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input').send_keys('test')
